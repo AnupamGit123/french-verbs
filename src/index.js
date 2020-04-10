@@ -1,5 +1,6 @@
 import "./styles.css";
-import $ from "jquery";
+// import $ from "jquery";
+import $ from "https://code.jquery.com/jquery-3.5.0.min.js";
 
 // document.getElementById("app").innerHTML = `
 // <h1>Hello Vanilla!</h1>
