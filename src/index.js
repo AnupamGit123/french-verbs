@@ -62,6 +62,11 @@ function sticktothetop() {
 $(function() {
   $(window).scroll(sticktothetop);
   sticktothetop();
+  var a = $("#stick-here").height();
+  if (a > 38) {
+    $("#stickThis").addClass("stick");
+    $("#stick-here").height($("#stickThis").outerHeight());
+  }
 });
 
 //sticky
