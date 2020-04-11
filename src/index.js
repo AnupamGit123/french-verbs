@@ -64,6 +64,7 @@ $(function() {
   sticktothetop();
   var a = $("#stick-here").height();
   if (a > 38) {
+    alert(a);
     $("#stickThis").addClass("stick");
     $("#stick-here").height($("#stickThis").outerHeight());
   }
