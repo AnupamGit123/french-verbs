@@ -50,8 +50,7 @@ checkbox.addEventListener("change", function() {
 
 function sticktothetop() {
   var window_top = $(window).scrollTop();
-  // var top = $("#stick-here").offset().top;
-  var top = $("#stick-here").offsetTop;
+  var top = $("#stick-here").offset().top;
   if (window_top > top) {
     $("#stickThis").addClass("stick");
     $("#stick-here").height($("#stickThis").outerHeight());
