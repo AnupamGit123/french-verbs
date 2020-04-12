@@ -74,7 +74,7 @@ input:checked + .slider:before {
 
 /* stick */
 #stickThis {
-  /* padding: 5px;
+  padding: 5px;
   background-color: #ccc;
   font-size: 1.5em;
   width: 300px;
@@ -82,7 +82,7 @@ input:checked + .slider:before {
   font-weight: bold;
   border: 2px solid #444;
   -webkit-border-radius: 10px;
-  border-radius: 10px; */
+  border-radius: 10px;
 }
 #stickThis.stick {
   margin-top: 0;
@@ -94,7 +94,7 @@ input:checked + .slider:before {
 }
 
 /* sticky */
-div.sticky {
+.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
