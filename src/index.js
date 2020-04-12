@@ -53,7 +53,8 @@ function sticktothetop() {
   var top = $("#stick-here").offset().top;
   if (window_top > top) {
     $("#stickThis").addClass("stick");
-    $("#stick-here").height($("#stickThis").outerHeight());
+    // $("#stick-here").height($("#stickThis").outerHeight());
+    $("#stick-here").height(22);
   } else {
     $("#stickThis").removeClass("stick");
     $("#stick-here").height(0);
