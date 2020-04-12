@@ -83,7 +83,7 @@ input:checked + .slider:before {
   border: 2px solid #444;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  position: fixed;
+  /* position: fixed;  */
 }
 #stickThis.stick {
   margin-top: 0;
